@@ -1,72 +1,22 @@
-* {
-    padding: 0;
-    font-family: sans-serif;
-  }
-  .background{
-    background-color: rgb(68, 236, 110);
-    height: 100vh;
-    padding-top:1px;
-  }
-  .title{
-    
-    color: white;
-    text-align: center;
-    font-size: 40px;
-    margin-top: 5%;
-    
-  }
-  .display
-  {
-    color:white;
-    font-size: 25px;
-    text-align: center;
-    margin-top: 1px;
-    margin-bottom: 1pc;
-  }
-  .hide{
-    display: none;
-  }
-  .container {
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: 33% 33% 33%;
-    grid-template-rows: 33% 33% 33%; 
-     max-width: 300px; 
-    
-  }
-  .tile {
-    border: 2px solid rgb(15, 15, 15);
-    min-width: 100px;
-    min-height: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 50px;
-    cursor: pointer; 
-  
-  }
-  .playerX {
-    color: #09C372;
-  }
-  
-  .playerO {
-    color: #498AFB;
-  }
-  .contrtols{
-    display: flex;
-    flex-direction: row;
-    justify-content:center;
-    align-items: center;
-    margin-top: 1cm;
-  }
-  #restart{
-    background-color: #498AFB;
-    color: white;
-    padding: 8px;
-    border-radius: 8px;
-    border: none;
-    font-size: 15px;
-    margin-left: 16cm;
-    cursor: pointer;
-  
-  }
+body {
+  font-family: "Arial", sans-serif;
+}
+section {
+  text-align: center;
+}
+.game--container {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  width: 306px;
+  margin: 50px auto;
+}
+.cell {
+  font-family: "Permanent Marker", cursive;
+  width: 100px;
+  height: 100px;
+  box-shadow: 0 0 0 1px #571e1e;
+  border: 1px solid #571e1e;
+  cursor: pointer;
+line-height: 100px;
+  font-size: 60px;
+}
