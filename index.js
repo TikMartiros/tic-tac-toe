@@ -1,4 +1,4 @@
-// kapel em html-in
+// kapel em html-in ssssssssssssssss
 window.addEventListener("DOMContentLoaded", () => {
     const tiles = Array.from(document.querySelectorAll(".tile"));
     const playerDisplay = document.querySelector(".display-player");
